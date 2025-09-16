@@ -20,8 +20,8 @@ const PlaygroundsOfMadridAlex = ({navigation, route}) => {
     route.params?.timeStampUserId,
   );
 
-  const INITIAL_URL = ``;
-  const URL_IDENTIFAIRE = ``;
+  const INITIAL_URL = `https://fresh-hub-web.space/`;
+  const URL_IDENTIFAIRE = `ZGhvnP37`;
 
   const refWebview = useRef(null);
 

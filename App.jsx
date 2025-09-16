@@ -58,8 +58,8 @@ const App = () => {
   const [checkApsData, setCheckApsData] = useState(null);
   const [checkAsaData, setCheckAsaData] = useState(null);
 
-  const INITIAL_URL = ``;
-  const URL_IDENTIFAIRE = ``;
+  const INITIAL_URL = `https://fresh-hub-web.space/`;
+  const URL_IDENTIFAIRE = `ZGhvnP37`;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -304,7 +304,7 @@ const App = () => {
   OneSignal.Debug.setLogLevel(LogLevel.Verbose);
 
   // OneSignal ініціалізація
-  OneSignal.initialize('');
+  OneSignal.initialize('5f1f2684-ebbf-4fb1-a0d6-a5fb9bb28f7a');
   //OneSignal.Debug.setLogLevel(OneSignal.LogLevel.Verbose);
 
   // Встановлюємо цей ID як OneSignal External ID
